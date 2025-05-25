@@ -5,6 +5,8 @@ import { useParams } from "react-router-dom";
 function Producers(){
 
 
+
+
         const {id} = useParams();
         const [studio, setStudio] = useState(null);
 
@@ -32,26 +34,26 @@ function Producers(){
       if (!studio) return <div>Loading...</div>
   return (
         
-   <div className="lg:flex lg:flex-row lg:items-center lg:justify-center mt-10 flex flex-col items-center justify-center">
+   <div className="2xl:flex flex-row items-center justify-center mt-10">
     
-    <div className="p-20">
+    <div className="xl:p-12 p-20">
 
     <div className="flex flex-row">
-        <div className = "lg:ml-0 ml-45">
+        <div className = "xl:ml-0 md:ml-50">
              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width='30'><path fill="currentColor" d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3zM8 17H6v-2h2zm0-4H6v-2h2zm0-4H6V7h2zm10 8h-2v-2h2zm0-4h-2v-2h2zm0-4h-2V7h2z"/></svg>
         </div>
        
-        <span className="font-bold text-3xl ml-2">{studio.titles?.[0].title}</span>  
+        <span className="font-bold xl:text-3xl md:text-2xl text-xl ml-2">{studio.titles?.[0].title}</span>  
     </div>
 
-        <div className="border border-gray-300 rounded-[15px] mt-5 max-w-full lg:w-[600px] w-[500px] lg:ml-0 ml-45">
+        <div className="border border-gray-300 rounded-[15px] mt-5 max-w-full xl:w-[600px] w-[500px] xl:ml-0 md:ml-15">
             <img src = {studio.images.jpg.image_url} alt = {studio.titles?.[0].title}></img>
         </div>
     </div>
     
 
     
-        <div className="mt-20 border border-gray-200 lg:ml-0 ml-50 w-[1000px] max-w-full p-5 lg:h-[650px] h-[800px] max-h-full rounded-[15px]">
+        <div className="xl:mt-20 border border-gray-200 xl:ml-0 2xl:w-[400px] xl:w-[1000px] max-w-full p-5 xl:h-[750px] h-screen rounded-[15px]">
                 <div className="flex justify-center flex-col">
                     <div className="p-5">
                         <h1>Established</h1>

@@ -32,18 +32,18 @@ function Studio(){
       if (!studio) return <div>Loading...</div>
   return (
         
-   <div className="lg:flex lg:flex-col lg:items-center lg:justify-center mt-10 flex flex-col items-center justify-center">
+   <div className="flex flex-col items-center justify-center mt-10">
     <div className="flex">
         <div className = "">
              <svg  className = "" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width='30'><path fill="currentColor" d="M440 464V16H72v448H16v32h480v-32Zm-32 0H272v-64h-32v64H104V48h304Z"/><path fill="currentColor" d="M160 304h32v32h-32zm80 0h32v32h-32zm80 0h32v32h-32zm-160-96h32v32h-32zm80 0h32v32h-32zm80 0h32v32h-32zm-160-96h32v32h-32zm80 0h32v32h-32zm80 0h32v32h-32z"/></svg>
         </div>
        
-        <span className="font-bold text-3xl ml-2">Studio</span>  
+        <span className="font-bold xl:text-3xl ml-2">Studio</span>  
     </div>
 
         
     
-        <div className="mt-20 border border-gray-200 lg:ml-0 ml-25 lg:w-full w-[400px] p-5">
+        <div className="mt-20 border border-gray-200 ml-0 xl:w-full md:w-full w-[400px] p-5">
                 <div className="flex justify-center flex-col">
                     <div className="p-5">
                         <h1>Established</h1>
