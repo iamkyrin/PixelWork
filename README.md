@@ -25,6 +25,11 @@ A responsive anime tracking web app that fetches data from the Jikan API (MyAnim
 - **Routing**: React Router
 - **Icons**: Heroicons
 
+## 🚀 Quick Access
+▶️ **[Live Demo](https://pixelwork.netlify.app)** (Click to try!)  
+📂 **[Source Code](https://github.com/iamkyrin/PixelWork)**
+
+
 ## 🚀 Installation
 
 1. Clone the repository:
