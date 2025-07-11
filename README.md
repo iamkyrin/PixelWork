@@ -6,7 +6,8 @@
 
 A responsive anime tracking web app that fetches data from the Jikan API (MyAnimeList). Browse trending anime, search titles, and view detailed information about your favorite shows.
 
-![Screenshot](https://i.imgur.com/example.png) *Replace with actual screenshot*
+![Screenshot](<img width="1351" height="3992" alt="2025-07-11 10 41 28 pixelwork netlify app 0becc797f2aa" src="https://github.com/user-attachments/assets/8a32a797-5f22-4cc8-a4e5-6bbd1c68a443" />
+)
 
 ## ✨ Features
 
@@ -26,7 +27,7 @@ A responsive anime tracking web app that fetches data from the Jikan API (MyAnim
 - **Icons**: Heroicons
 
 ## 🚀 Quick Access
-▶️ **[Live Demo](https://pixelwork.netlify.app)** (Click to try!)  
+▶️ **[Live Site](https://pixelwork.netlify.app)**  
 📂 **[Source Code](https://github.com/iamkyrin/PixelWork)**
 
 
